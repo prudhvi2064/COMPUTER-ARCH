@@ -1,0 +1,10 @@
+MOV M,B
+INX H
+MVI D,01
+LOOP1: DCR C
+JNC LOOP
+MOV A,D
+RRC
+HLT
+File metadata and controls
+216 KB
